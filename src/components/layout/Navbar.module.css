@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 1em;
+}
+
+.nameImg {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.nameImg span {
+  color: #24db49;
+}
+
+.nameImg img {
+  margin-left: 0.5em;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.item {
+  margin-right: 1em;
+}
+
+.item a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.item a:hover {
+  color: #24db49;
+}

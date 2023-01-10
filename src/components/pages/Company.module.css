@@ -1,0 +1,21 @@
+.about_section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+  text-align: justify;
+}
+
+.about_section h1 {
+  text-align: center;
+}
+
+.about_section h1 span {
+  background-color: #222;
+  color: #24db49;
+}
+
+.about_section p {
+  margin-top: 1em;
+  color: #7b7b7b;
+  font-size: 1em;
+}
